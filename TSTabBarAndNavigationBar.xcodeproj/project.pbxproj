@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE591DA1CA9522B00DDDAA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591D91CA9522B00DDDAA1 /* main.m */; };
+		DDE591DD1CA9522B00DDDAA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591DC1CA9522B00DDDAA1 /* AppDelegate.m */; };
+		DDE591E01CA9522B00DDDAA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591DF1CA9522B00DDDAA1 /* ViewController.m */; };
+		DDE591E31CA9522B00DDDAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE591E11CA9522B00DDDAA1 /* Main.storyboard */; };
+		DDE591E51CA9522B00DDDAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE591E41CA9522B00DDDAA1 /* Assets.xcassets */; };
+		DDE591E81CA9522B00DDDAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE591E61CA9522B00DDDAA1 /* LaunchScreen.storyboard */; };
+		DDE591F31CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591F21CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m */; };
+		DDE591FE1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591FD1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m */; };
+		DDE5920D1CA953D500DDDAA1 /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5920C1CA953D500DDDAA1 /* TSTabBarController.m */; };
+		DDE592101CA9556200DDDAA1 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5920F1CA9556200DDDAA1 /* RedViewController.m */; };
+		DDE592131CA9558F00DDDAA1 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE592121CA9558F00DDDAA1 /* GreenViewController.m */; };
+		DDE592161CA955C300DDDAA1 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE592151CA955C300DDDAA1 /* BlueViewController.m */; };
+		DDE592191CAA2F6100DDDAA1 /* TSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE592181CAA2F6100DDDAA1 /* TSNavigationController.m */; };
+		DDE5921C1CAA33EB00DDDAA1 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5921B1CAA33EB00DDDAA1 /* OrangeViewController.m */; };
+		DDE5921F1CAA340100DDDAA1 /* PurpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5921E1CAA340100DDDAA1 /* PurpleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE591EF1CA9522C00DDDAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE591CD1CA9522B00DDDAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE591D41CA9522B00DDDAA1;
+			remoteInfo = TSTabBarAndNavigationBar;
+		};
+		DDE591FA1CA9522C00DDDAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE591CD1CA9522B00DDDAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE591D41CA9522B00DDDAA1;
+			remoteInfo = TSTabBarAndNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE591D51CA9522B00DDDAA1 /* TSTabBarAndNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSTabBarAndNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE591D91CA9522B00DDDAA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE591DB1CA9522B00DDDAA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE591DC1CA9522B00DDDAA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE591DE1CA9522B00DDDAA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDE591DF1CA9522B00DDDAA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDE591E21CA9522B00DDDAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE591E41CA9522B00DDDAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE591E71CA9522B00DDDAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE591E91CA9522B00DDDAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE591EE1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSTabBarAndNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE591F21CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarAndNavigationBarTests.m; sourceTree = "<group>"; };
+		DDE591F41CA9522C00DDDAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE591F91CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSTabBarAndNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE591FD1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarAndNavigationBarUITests.m; sourceTree = "<group>"; };
+		DDE591FF1CA9522C00DDDAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE5920B1CA953D500DDDAA1 /* TSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
+		DDE5920C1CA953D500DDDAA1 /* TSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
+		DDE5920E1CA9556200DDDAA1 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		DDE5920F1CA9556200DDDAA1 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		DDE592111CA9558F00DDDAA1 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		DDE592121CA9558F00DDDAA1 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		DDE592141CA955C300DDDAA1 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		DDE592151CA955C300DDDAA1 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		DDE592171CAA2F6100DDDAA1 /* TSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationController.h; sourceTree = "<group>"; };
+		DDE592181CAA2F6100DDDAA1 /* TSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationController.m; sourceTree = "<group>"; };
+		DDE5921A1CAA33EB00DDDAA1 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
+		DDE5921B1CAA33EB00DDDAA1 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
+		DDE5921D1CAA340100DDDAA1 /* PurpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleViewController.h; sourceTree = "<group>"; };
+		DDE5921E1CAA340100DDDAA1 /* PurpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE591D21CA9522B00DDDAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE591EB1CA9522C00DDDAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE591F61CA9522C00DDDAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE591CC1CA9522B00DDDAA1 = {
+			isa = PBXGroup;
+			children = (
+				DDE591D71CA9522B00DDDAA1 /* TSTabBarAndNavigationBar */,
+				DDE591F11CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests */,
+				DDE591FC1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests */,
+				DDE591D61CA9522B00DDDAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE591D61CA9522B00DDDAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE591D51CA9522B00DDDAA1 /* TSTabBarAndNavigationBar.app */,
+				DDE591EE1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.xctest */,
+				DDE591F91CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE591D71CA9522B00DDDAA1 /* TSTabBarAndNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				DDE591DB1CA9522B00DDDAA1 /* AppDelegate.h */,
+				DDE591DC1CA9522B00DDDAA1 /* AppDelegate.m */,
+				DDE591DE1CA9522B00DDDAA1 /* ViewController.h */,
+				DDE591DF1CA9522B00DDDAA1 /* ViewController.m */,
+				DDE5920B1CA953D500DDDAA1 /* TSTabBarController.h */,
+				DDE5920C1CA953D500DDDAA1 /* TSTabBarController.m */,
+				DDE592171CAA2F6100DDDAA1 /* TSNavigationController.h */,
+				DDE592181CAA2F6100DDDAA1 /* TSNavigationController.m */,
+				DDE5920E1CA9556200DDDAA1 /* RedViewController.h */,
+				DDE5920F1CA9556200DDDAA1 /* RedViewController.m */,
+				DDE592111CA9558F00DDDAA1 /* GreenViewController.h */,
+				DDE592121CA9558F00DDDAA1 /* GreenViewController.m */,
+				DDE592141CA955C300DDDAA1 /* BlueViewController.h */,
+				DDE592151CA955C300DDDAA1 /* BlueViewController.m */,
+				DDE5921A1CAA33EB00DDDAA1 /* OrangeViewController.h */,
+				DDE5921B1CAA33EB00DDDAA1 /* OrangeViewController.m */,
+				DDE5921D1CAA340100DDDAA1 /* PurpleViewController.h */,
+				DDE5921E1CAA340100DDDAA1 /* PurpleViewController.m */,
+				DDE591E11CA9522B00DDDAA1 /* Main.storyboard */,
+				DDE591E41CA9522B00DDDAA1 /* Assets.xcassets */,
+				DDE591E61CA9522B00DDDAA1 /* LaunchScreen.storyboard */,
+				DDE591E91CA9522B00DDDAA1 /* Info.plist */,
+				DDE591D81CA9522B00DDDAA1 /* Supporting Files */,
+			);
+			path = TSTabBarAndNavigationBar;
+			sourceTree = "<group>";
+		};
+		DDE591D81CA9522B00DDDAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE591D91CA9522B00DDDAA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE591F11CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE591F21CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m */,
+				DDE591F41CA9522C00DDDAA1 /* Info.plist */,
+			);
+			path = TSTabBarAndNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		DDE591FC1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE591FD1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m */,
+				DDE591FF1CA9522C00DDDAA1 /* Info.plist */,
+			);
+			path = TSTabBarAndNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE591D41CA9522B00DDDAA1 /* TSTabBarAndNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE592021CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBar" */;
+			buildPhases = (
+				DDE591D11CA9522B00DDDAA1 /* Sources */,
+				DDE591D21CA9522B00DDDAA1 /* Frameworks */,
+				DDE591D31CA9522B00DDDAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSTabBarAndNavigationBar;
+			productName = TSTabBarAndNavigationBar;
+			productReference = DDE591D51CA9522B00DDDAA1 /* TSTabBarAndNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE591ED1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE592051CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBarTests" */;
+			buildPhases = (
+				DDE591EA1CA9522C00DDDAA1 /* Sources */,
+				DDE591EB1CA9522C00DDDAA1 /* Frameworks */,
+				DDE591EC1CA9522C00DDDAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE591F01CA9522C00DDDAA1 /* PBXTargetDependency */,
+			);
+			name = TSTabBarAndNavigationBarTests;
+			productName = TSTabBarAndNavigationBarTests;
+			productReference = DDE591EE1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE591F81CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE592081CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBarUITests" */;
+			buildPhases = (
+				DDE591F51CA9522C00DDDAA1 /* Sources */,
+				DDE591F61CA9522C00DDDAA1 /* Frameworks */,
+				DDE591F71CA9522C00DDDAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE591FB1CA9522C00DDDAA1 /* PBXTargetDependency */,
+			);
+			name = TSTabBarAndNavigationBarUITests;
+			productName = TSTabBarAndNavigationBarUITests;
+			productReference = DDE591F91CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE591CD1CA9522B00DDDAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tunsuy;
+				TargetAttributes = {
+					DDE591D41CA9522B00DDDAA1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDE591ED1CA9522C00DDDAA1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDE591D41CA9522B00DDDAA1;
+					};
+					DDE591F81CA9522C00DDDAA1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDE591D41CA9522B00DDDAA1;
+					};
+				};
+			};
+			buildConfigurationList = DDE591D01CA9522B00DDDAA1 /* Build configuration list for PBXProject "TSTabBarAndNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE591CC1CA9522B00DDDAA1;
+			productRefGroup = DDE591D61CA9522B00DDDAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE591D41CA9522B00DDDAA1 /* TSTabBarAndNavigationBar */,
+				DDE591ED1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests */,
+				DDE591F81CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE591D31CA9522B00DDDAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE591E81CA9522B00DDDAA1 /* LaunchScreen.storyboard in Resources */,
+				DDE591E51CA9522B00DDDAA1 /* Assets.xcassets in Resources */,
+				DDE591E31CA9522B00DDDAA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE591EC1CA9522C00DDDAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE591F71CA9522C00DDDAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE591D11CA9522B00DDDAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE5921F1CAA340100DDDAA1 /* PurpleViewController.m in Sources */,
+				DDE591E01CA9522B00DDDAA1 /* ViewController.m in Sources */,
+				DDE591DD1CA9522B00DDDAA1 /* AppDelegate.m in Sources */,
+				DDE592131CA9558F00DDDAA1 /* GreenViewController.m in Sources */,
+				DDE5920D1CA953D500DDDAA1 /* TSTabBarController.m in Sources */,
+				DDE592161CA955C300DDDAA1 /* BlueViewController.m in Sources */,
+				DDE5921C1CAA33EB00DDDAA1 /* OrangeViewController.m in Sources */,
+				DDE591DA1CA9522B00DDDAA1 /* main.m in Sources */,
+				DDE592191CAA2F6100DDDAA1 /* TSNavigationController.m in Sources */,
+				DDE592101CA9556200DDDAA1 /* RedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE591EA1CA9522C00DDDAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE591F31CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE591F51CA9522C00DDDAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE591FE1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE591F01CA9522C00DDDAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE591D41CA9522B00DDDAA1 /* TSTabBarAndNavigationBar */;
+			targetProxy = DDE591EF1CA9522C00DDDAA1 /* PBXContainerItemProxy */;
+		};
+		DDE591FB1CA9522C00DDDAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE591D41CA9522B00DDDAA1 /* TSTabBarAndNavigationBar */;
+			targetProxy = DDE591FA1CA9522C00DDDAA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE591E11CA9522B00DDDAA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE591E21CA9522B00DDDAA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE591E61CA9522B00DDDAA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE591E71CA9522B00DDDAA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE592001CA9522C00DDDAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDE592011CA9522C00DDDAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE592031CA9522C00DDDAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSTabBarAndNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDE592041CA9522C00DDDAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSTabBarAndNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDE592061CA9522C00DDDAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSTabBarAndNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSTabBarAndNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSTabBarAndNavigationBar.app/TSTabBarAndNavigationBar";
+			};
+			name = Debug;
+		};
+		DDE592071CA9522C00DDDAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSTabBarAndNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSTabBarAndNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSTabBarAndNavigationBar.app/TSTabBarAndNavigationBar";
+			};
+			name = Release;
+		};
+		DDE592091CA9522C00DDDAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSTabBarAndNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSTabBarAndNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSTabBarAndNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDE5920A1CA9522C00DDDAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSTabBarAndNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSTabBarAndNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSTabBarAndNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE591D01CA9522B00DDDAA1 /* Build configuration list for PBXProject "TSTabBarAndNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE592001CA9522C00DDDAA1 /* Debug */,
+				DDE592011CA9522C00DDDAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE592021CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE592031CA9522C00DDDAA1 /* Debug */,
+				DDE592041CA9522C00DDDAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE592051CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE592061CA9522C00DDDAA1 /* Debug */,
+				DDE592071CA9522C00DDDAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE592081CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE592091CA9522C00DDDAA1 /* Debug */,
+				DDE5920A1CA9522C00DDDAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE591CD1CA9522B00DDDAA1 /* Project object */;
+}
