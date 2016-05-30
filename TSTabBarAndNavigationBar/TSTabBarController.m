@@ -20,6 +20,8 @@
 
 @property (nonatomic, strong) UIView *tabBarView;
 
+@property (nonatomic, weak) id popGestureDelegate;
+
 @end
 
 @implementation TSTabBarController
@@ -34,13 +36,21 @@
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer{
     if (self.navigationController.viewControllers.count == 1) {
         return NO;
+    }else if([self.popGestureDelegate respondsToSelector:@selector(gestureRecognizerShouldBegin:)]) {
+        return [self.popGestureDelegate gestureRecognizerShouldBegin:gestureRecognizer];
     }else {
         return YES;
     }
 }
 
 - (void)setTabBarController {
-    self.navigationController.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
+    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        if(self.popGestureDelegate == nil && self.navigationController.interactivePopGestureRecognizer.delegate != self)
+        {
+            self.popGestureDelegate = self.navigationController.interactivePopGestureRecognizer.delegate;
+        }
+        self.navigationController.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
+    }
     
     self.viewControllers = @[[[RedViewController alloc] init],
                              [[GreenViewController alloc] init],

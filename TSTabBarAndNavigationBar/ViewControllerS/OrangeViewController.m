@@ -20,11 +20,21 @@
     
     self.view.backgroundColor = [UIColor orangeColor];
     
+    /** 不影响侧滑 */
+//    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [backButton setTitle:@"返回" forState:UIControlStateNormal];    
+//    UIBarButtonItem *backBtn = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+//    self.navigationItem.backBarButtonItem = backBtn;
+    
+    /** 影响侧滑，解决方法：自定义navigationcontroller */
+    UIBarButtonItem *backBtn = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.leftBarButtonItem = backBtn;
+    
 }
 
-//- (void)viewWillAppear:(BOOL)animated{
-//    self.navigationController.navigationBarHidden = NO;
-//}
+- (void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBarHidden = NO;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD239C991CF9726A007A78F1 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD239C901CF9726A007A78F1 /* BlueViewController.m */; };
+		DD239C9A1CF9726A007A78F1 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD239C921CF9726A007A78F1 /* GreenViewController.m */; };
+		DD239C9B1CF9726A007A78F1 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD239C941CF9726A007A78F1 /* OrangeViewController.m */; };
+		DD239C9C1CF9726A007A78F1 /* PurpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD239C961CF9726A007A78F1 /* PurpleViewController.m */; };
+		DD239C9D1CF9726A007A78F1 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD239C981CF9726A007A78F1 /* RedViewController.m */; };
 		DDE591DA1CA9522B00DDDAA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591D91CA9522B00DDDAA1 /* main.m */; };
 		DDE591DD1CA9522B00DDDAA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591DC1CA9522B00DDDAA1 /* AppDelegate.m */; };
 		DDE591E01CA9522B00DDDAA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591DF1CA9522B00DDDAA1 /* ViewController.m */; };
@@ -16,12 +21,7 @@
 		DDE591F31CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591F21CA9522C00DDDAA1 /* TSTabBarAndNavigationBarTests.m */; };
 		DDE591FE1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE591FD1CA9522C00DDDAA1 /* TSTabBarAndNavigationBarUITests.m */; };
 		DDE5920D1CA953D500DDDAA1 /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5920C1CA953D500DDDAA1 /* TSTabBarController.m */; };
-		DDE592101CA9556200DDDAA1 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5920F1CA9556200DDDAA1 /* RedViewController.m */; };
-		DDE592131CA9558F00DDDAA1 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE592121CA9558F00DDDAA1 /* GreenViewController.m */; };
-		DDE592161CA955C300DDDAA1 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE592151CA955C300DDDAA1 /* BlueViewController.m */; };
 		DDE592191CAA2F6100DDDAA1 /* TSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE592181CAA2F6100DDDAA1 /* TSNavigationController.m */; };
-		DDE5921C1CAA33EB00DDDAA1 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5921B1CAA33EB00DDDAA1 /* OrangeViewController.m */; };
-		DDE5921F1CAA340100DDDAA1 /* PurpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5921E1CAA340100DDDAA1 /* PurpleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD239C8F1CF9726A007A78F1 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		DD239C901CF9726A007A78F1 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		DD239C911CF9726A007A78F1 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		DD239C921CF9726A007A78F1 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		DD239C931CF9726A007A78F1 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
+		DD239C941CF9726A007A78F1 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
+		DD239C951CF9726A007A78F1 /* PurpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleViewController.h; sourceTree = "<group>"; };
+		DD239C961CF9726A007A78F1 /* PurpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleViewController.m; sourceTree = "<group>"; };
+		DD239C971CF9726A007A78F1 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		DD239C981CF9726A007A78F1 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 		DDE591D51CA9522B00DDDAA1 /* TSTabBarAndNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSTabBarAndNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE591D91CA9522B00DDDAA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDE591DB1CA9522B00DDDAA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,18 +70,8 @@
 		DDE591FF1CA9522C00DDDAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE5920B1CA953D500DDDAA1 /* TSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
 		DDE5920C1CA953D500DDDAA1 /* TSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
-		DDE5920E1CA9556200DDDAA1 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
-		DDE5920F1CA9556200DDDAA1 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
-		DDE592111CA9558F00DDDAA1 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
-		DDE592121CA9558F00DDDAA1 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
-		DDE592141CA955C300DDDAA1 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
-		DDE592151CA955C300DDDAA1 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 		DDE592171CAA2F6100DDDAA1 /* TSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNavigationController.h; sourceTree = "<group>"; };
 		DDE592181CAA2F6100DDDAA1 /* TSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNavigationController.m; sourceTree = "<group>"; };
-		DDE5921A1CAA33EB00DDDAA1 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
-		DDE5921B1CAA33EB00DDDAA1 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
-		DDE5921D1CAA340100DDDAA1 /* PurpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleViewController.h; sourceTree = "<group>"; };
-		DDE5921E1CAA340100DDDAA1 /* PurpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD239C8E1CF9726A007A78F1 /* ViewControllerS */ = {
+			isa = PBXGroup;
+			children = (
+				DD239C8F1CF9726A007A78F1 /* BlueViewController.h */,
+				DD239C901CF9726A007A78F1 /* BlueViewController.m */,
+				DD239C911CF9726A007A78F1 /* GreenViewController.h */,
+				DD239C921CF9726A007A78F1 /* GreenViewController.m */,
+				DD239C931CF9726A007A78F1 /* OrangeViewController.h */,
+				DD239C941CF9726A007A78F1 /* OrangeViewController.m */,
+				DD239C951CF9726A007A78F1 /* PurpleViewController.h */,
+				DD239C961CF9726A007A78F1 /* PurpleViewController.m */,
+				DD239C971CF9726A007A78F1 /* RedViewController.h */,
+				DD239C981CF9726A007A78F1 /* RedViewController.m */,
+			);
+			path = ViewControllerS;
+			sourceTree = "<group>";
+		};
 		DDE591CC1CA9522B00DDDAA1 = {
 			isa = PBXGroup;
 			children = (
@@ -126,20 +143,11 @@
 				DDE591DC1CA9522B00DDDAA1 /* AppDelegate.m */,
 				DDE591DE1CA9522B00DDDAA1 /* ViewController.h */,
 				DDE591DF1CA9522B00DDDAA1 /* ViewController.m */,
+				DD239C8E1CF9726A007A78F1 /* ViewControllerS */,
 				DDE5920B1CA953D500DDDAA1 /* TSTabBarController.h */,
 				DDE5920C1CA953D500DDDAA1 /* TSTabBarController.m */,
 				DDE592171CAA2F6100DDDAA1 /* TSNavigationController.h */,
 				DDE592181CAA2F6100DDDAA1 /* TSNavigationController.m */,
-				DDE5920E1CA9556200DDDAA1 /* RedViewController.h */,
-				DDE5920F1CA9556200DDDAA1 /* RedViewController.m */,
-				DDE592111CA9558F00DDDAA1 /* GreenViewController.h */,
-				DDE592121CA9558F00DDDAA1 /* GreenViewController.m */,
-				DDE592141CA955C300DDDAA1 /* BlueViewController.h */,
-				DDE592151CA955C300DDDAA1 /* BlueViewController.m */,
-				DDE5921A1CAA33EB00DDDAA1 /* OrangeViewController.h */,
-				DDE5921B1CAA33EB00DDDAA1 /* OrangeViewController.m */,
-				DDE5921D1CAA340100DDDAA1 /* PurpleViewController.h */,
-				DDE5921E1CAA340100DDDAA1 /* PurpleViewController.m */,
 				DDE591E11CA9522B00DDDAA1 /* Main.storyboard */,
 				DDE591E41CA9522B00DDDAA1 /* Assets.xcassets */,
 				DDE591E61CA9522B00DDDAA1 /* LaunchScreen.storyboard */,
@@ -305,16 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE5921F1CAA340100DDDAA1 /* PurpleViewController.m in Sources */,
 				DDE591E01CA9522B00DDDAA1 /* ViewController.m in Sources */,
+				DD239C9C1CF9726A007A78F1 /* PurpleViewController.m in Sources */,
 				DDE591DD1CA9522B00DDDAA1 /* AppDelegate.m in Sources */,
-				DDE592131CA9558F00DDDAA1 /* GreenViewController.m in Sources */,
+				DD239C991CF9726A007A78F1 /* BlueViewController.m in Sources */,
+				DD239C9D1CF9726A007A78F1 /* RedViewController.m in Sources */,
 				DDE5920D1CA953D500DDDAA1 /* TSTabBarController.m in Sources */,
-				DDE592161CA955C300DDDAA1 /* BlueViewController.m in Sources */,
-				DDE5921C1CAA33EB00DDDAA1 /* OrangeViewController.m in Sources */,
+				DD239C9B1CF9726A007A78F1 /* OrangeViewController.m in Sources */,
 				DDE591DA1CA9522B00DDDAA1 /* main.m in Sources */,
+				DD239C9A1CF9726A007A78F1 /* GreenViewController.m in Sources */,
 				DDE592191CAA2F6100DDDAA1 /* TSNavigationController.m in Sources */,
-				DDE592101CA9556200DDDAA1 /* RedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +548,7 @@
 				DDE592041CA9522C00DDDAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE592051CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +557,7 @@
 				DDE592071CA9522C00DDDAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE592081CA9522C00DDDAA1 /* Build configuration list for PBXNativeTarget "TSTabBarAndNavigationBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +566,7 @@
 				DDE5920A1CA9522C00DDDAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

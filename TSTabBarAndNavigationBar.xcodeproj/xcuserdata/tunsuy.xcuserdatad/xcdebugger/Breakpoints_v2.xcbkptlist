@@ -9,12 +9,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TSTabBarAndNavigationBar/TSTabBarController.m"
-            timestampString = "481031525.322943"
+            filePath = "TSTabBarAndNavigationBar/TSNavigationController.m"
+            timestampString = "486118428.577402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "-gestureRecognizerShouldBegin:"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TSTabBarAndNavigationBar/TSTabBarController.m"
-            timestampString = "481031527.493398"
+            filePath = "TSTabBarAndNavigationBar/TSNavigationController.m"
+            timestampString = "486118482.268968"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-gestureRecognizerShouldBegin:"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-initWithRootViewController:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
